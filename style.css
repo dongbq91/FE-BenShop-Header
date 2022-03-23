@@ -4,17 +4,13 @@
   box-sizing: border-box;
 }
 
-a {
+.header a {
   text-decoration: none;
 }
 
-ul {
-  list-style: none;
-}
 
-.logo {
-  font-size: 2rem;
-  font-weight: bold;
+.header ul {
+  list-style: none;
 }
 
 .container {
@@ -79,9 +75,11 @@ ul {
 }
 
 .header__item:hover .header__dropdown {
+  text-decoration: none;
   visibility: visible;
 }
 .header__item:hover .header__link {
+  text-decoration: none;
   color: #4297f8;
 }
 .header__link:focus {
