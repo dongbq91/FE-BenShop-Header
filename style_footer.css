@@ -20,6 +20,7 @@
 
 
  .list-unstyled li {
+    color: #000;
      margin-top: 10px;
      margin-bottom: 10px
  }
@@ -60,10 +61,14 @@
  .list-unstyled li:first-child {
      font-size: 21px !important;
      font-weight: bold;
+     
      margin-bottom: calc(40px + (48 - 40) * ((100vw - 360px) / (1600 - 360))) !important;
      color: #757575 !important
+     
  }
-
+.link-to{
+    color: #000;
+ }
  footer {
      color: #757575 !important
  }
@@ -77,7 +82,4 @@
      cursor: pointer !important;
      color: green;
      font-weight: bold
- }
- .footer a{
-     color: #000;
  }
