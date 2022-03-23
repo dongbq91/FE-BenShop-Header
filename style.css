@@ -21,6 +21,9 @@ ul {
   max-width: 1320px;
   padding: 0 20px;
   margin: 0 auto;
+  display: flex;                  
+  
+
 }
 
 .header__container {
@@ -28,19 +31,18 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   min-height: 5.25rem;
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-between; 
 }
 
 .header__nav {
-  margin-right: 900px;
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 
-.header__logo {
-  margin-left: 400px;
-  height: 5px;
-  width: 100px;
-}
+
 
 .header__list {
   display: flex;
@@ -125,9 +127,13 @@ ul {
     width: auto ; 
     height: auto; 
 	  display: inline;
-    margin-top: 30px;
   	margin-left: 1050px !important;
 }
 .icon_header .bi {
 	margin: 15px;
+}
+
+.text-logo{
+
+  margin-left: 300px;
 }
